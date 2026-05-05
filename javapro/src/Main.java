@@ -9,7 +9,7 @@ public class Main {
 		// TODO Auto-generated method stub
 				System.out.println("--- Bienvenue dans SATviewer ---");
 				//Authentification
-				Scanner lecteurClavier = new Scanner(System.in);
+Scanner lecteurClavier = new Scanner(System.in);
 				int choix;
 				Authentification A = new Authentification();
 				String pseudo;
@@ -25,12 +25,7 @@ public class Main {
 			        		pseudo = lecteurClavier.nextLine();
 			        		System.out.println("Entrez le mot de passe");
 			        		psw = lecteurClavier.nextLine();
-			       			if(A.connecter(pseudo, psw)==null) {
-			       				System.out.println("pseudo ou mot de passe non trouvé(s)");
-			       				break;
-			       			}else {
-			       				a=true;
-			       			}
+			       			a=A.connecter(pseudo, psw);
 			        		break;
 			        	case 2: 
 			        		
@@ -38,7 +33,7 @@ public class Main {
 		        			pseudo = lecteurClavier.nextLine();
 		        			System.out.println("Entrez le mot de passe");
 		        			psw = lecteurClavier.nextLine();
-		        			a=A.inscrire(pseudo, psw);
+		        			A.inscrire(pseudo, psw);
 					}
 				}while(a==false);
 				//
