@@ -4,4 +4,17 @@ Il s'agit d'une application dont le but est d'accéder rapidement et efficacemen
 ## Comment est-elle composée ?
 Une partie Base de donnée locale, qui est à téléchargée, pour l'instant purement accessible en console, et une partie Base de donnée distante, faite en graphique.
 
+## Des choses spécifiques ?
+Dans le release, télécharger
+  => java_sat_db                  (la base de donnée locale)
+  => mysql-connector-j-9.7.0      (gère les bases de données distante)
+  => sqlite-jdbc-3.53.0.0         (gère la base de données locale)
+
+## Technos
+Java pour la programmation
+SQLite et JDCB pour les bases de données
+
 ## Fait par
+TIAYAH Roches Destain
+LE STRAT Mathieu
+ORDUREAU Adam
