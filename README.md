@@ -10,6 +10,9 @@ Dans le release, télécharger le zip, il contien les éléments nécessaires au
 Pour la partie Distante, l'utilisation de Xamp sera nécessaire pour s'authentification. Pour l'instant, il est nécessaire de créer une base de donnée "sat_db" soi-même, possédant une table "utilisateurs", avec 3 colonnes : une colonne "id" clé primaire qui s'incrémente automatiquement, une colonne "pseudo" en VARCHAR(50) et une "password" en VARCHAR(50) également.
 A l'avenir, il est prévu de vérifier automatiquement si la table existe, et de la créer si nécessaire au lancement du programme.
 
+## Qu'est-ce qui est prévu pour le futur ?
+Tout d'abord, vérifier automatiquement si la base de donnée "utilisateurs" existe, et de la créer si nécessaire au lancement du programme. Ensuite, finir la Direction Artistique de la partie graphique pour les Bases de données distantes (notamment au niveau des couleurs).
+
 ## Technos
 Java pour la programmation
 SQLite et JDCB pour les bases de données
