@@ -17,6 +17,9 @@ Tout d'abord, vérifier automatiquement si la base de donnée "utilisateurs" exi
 Java pour la programmation
 SQLite et JDCB pour les bases de données
 
+##Lien vers la vidéo du projet
+https://ag3il-my.sharepoint.com/personal/ordureaa_3il_fr/_layouts/15/stream.aspx?id=%2Fpersonal%2Fordureaa%5F3il%5Ffr%2FDocuments%2FAttachments%2FVideo%5FSeeStar%201%2Emp4&ct=1779460566301&or=OWA%2DNT%2DMail&cid=8119fb2a%2D35f2%2Df097%2Dfb89%2D92e7e1f1555a&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed8c6418a%2D4538%2D4d07%2Dace8%2Da18b02ea6e5e
+
 ## Fait par
 TIAYAH Roches Destain
 LE STRAT Mathieu
